@@ -3,7 +3,7 @@
 | 이름   | GitHub                                         |
 | ------ | ---------------------------------------------- |
 | 박경완 | [@cup-wan](https://github.com/cup-wan) 
-| 류현지 | [@happysubin](https://github.com/Ryuuhj) |
+| 류현지 | [@Ryuuhj](https://github.com/Ryuuhj) |
 | 이승우 | [@swoolee97](https://github.com/swoolee97) |
 | 이대산 | [@DSL2e](https://github.com/DSL2e) |
 
