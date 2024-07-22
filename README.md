@@ -2,7 +2,7 @@
 ## 스터디원 😎
 | 이름   | GitHub                                         |
 | ------ | ---------------------------------------------- |
-| 박경완 | [@cup-wan](https://github.com/hyeong-jun-kim) 
+| 박경완 | [@cup-wan](https://github.com/cup-wan) 
 | 이현지 | [@happysubin](https://github.com/Ryuuhj) |
 | 이승우 | [@swoolee97](https://github.com/swoolee97) |
 | 이대산 | [@DSL2e](https://github.com/DSL2e) |
