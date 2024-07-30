@@ -4,10 +4,10 @@
 ## race condition
 
 #### 컴퓨터의 데이터 접근 방식
-<img src="./Image/processSync/processSync1.png" height="350px" width="450px"> 
+<img src="./Image/ProcessSync/processSync1.png" height="350px" width="450px"> 
 
 컴퓨터가 작업 중, 디스크의 데이터를 이용할 때, 디스크에 저장되어 있는 값을 읽어서 연산하고 다시 저장하는 작업을 거침 => 문제는 쓰기
-<img src="./Image/processSync/processSync2.png" height="350px" width="450px"> 
+<img src="./Image/ProcessSync/processSync2.png" height="350px" width="450px"> 
 
 위 처럼, 같은 count라는 공유자원에서 ++, -- 할 때, 결국 저장된 데이터는 +1 or -1 일 것이고 원하는 결과를 얻을 수 없다.
 
@@ -16,21 +16,21 @@
 ## OS에서 생길 수 있는 Race Condition
 
 #### 커널 수행 중 인터럽트 발생
-<img src="./Image/processSync/processSync3.png" height="350px" width="450px"> 
+<img src="./Image/ProcessSync/processSync3.png" height="350px" width="450px"> 
 
 load 단계에서 읽어들인 후, Interrupt Hanlder에 의한 인터럽트 처리루틴 결과는 무시되고 증가만 되는 경우
 
 => **`해당 위험이 있는 종류의 작업인 경우 인터럽트 루틴이 끼어들 수 없도록 처리`**
 
 #### 프로세스가 시스템 콜 중에 선점된 경우 
-<img src="./Image/processSync/processSync4.png" height="350px" width="450px"> 
+<img src="./Image/ProcessSync/processSync4.png" height="350px" width="450px"> 
 
 프로세스A가 시스템콜하는 과정에서 프로세스B가 선점하는 경우 
 
 => **`시스템 콜로 커널모드에 진입해있때는 CPU를 선점하지 않는 방식으로 해결`**
 
 #### 멀티 프로세서인 경우
-<img src="./Image/processSync/processSync5.png" height="350px" width="450px">
+<img src="./Image/ProcessSync/processSync5.png" height="350px" width="450px">
 
 ## Process Synchronization
 
@@ -41,7 +41,7 @@ load 단계에서 읽어들인 후, Interrupt Hanlder에 의한 인터럽트 처
 프로세스는 고유한 주소 공간과 데이터를 활용하므로 모든 부분에서 문제가 발생하는 것은 아님
 
 여러 프로세스가 함께 공유하는 메모리에 접근하는 코드 블록을 임계구역이라고 함
-<img src="./Image/processSync/processSync6.png" height="350px" width="450px">
+<img src="./Image/ProcessSync/processSync6.png" height="350px" width="450px">
 
 #### 해결 방법 3가지 조건
 
@@ -54,7 +54,7 @@ load 단계에서 읽어들인 후, Interrupt Hanlder에 의한 인터럽트 처
 #### 프로그램적 해결 알고리즘
 - 피터슨의 해결책
 
-<img src="./Image/processSync/processSync7.png" height="350px" width="450px">
+<img src="./Image/ProcessSync/processSync7.png" height="350px" width="450px">
 
 i프로세스가 임계구역에 들어 가고자 함. 현재 턴은 j프로세스는 차례이고, j프로세스가 점유하고 있다면 i프로세스는 기다리다가 j프로세스가 끝나면 i프로세스가 진입한다.
 
@@ -65,7 +65,8 @@ i프로세스가 임계구역에 들어 가고자 함. 현재 턴은 j프로세�
 
 ## 하드웨어적 해결 방법 
 기본적으로 읽고 쓰는 작업은 서로 다른 인스트럭션으로 이루어짐. 읽기와 쓰기의 인스트럭션이 하나로 이루어진다면 간단하게 프로그램 작성 및 문제 해결
-<img src="./Image/processSync/processSync8.png" height="350px" width="450px">
+
+<img src="./Image/ProcessSync/processSync8.png" height="350px" width="450px">
 
 ## 고수준 소프트웨어 해결방법
 
@@ -232,9 +233,9 @@ c는 우선순위 번호를 가진 프로세스가 먼저 실행됨. 일시 중�
 
     데드락이 되는 사이클을 찾는 데 드는 비용은 O(n^2)
 - 자원 당 인스턴스 여러 개 
-<img src="./Image/processSync/processSync9.png" height="350px" width="450px">
+<img src="./Image/ProcessSync/processSync9.png" height="350px" width="450px">
 
-    낙관적으로 할당 된 자원이 있다면 반납할 것이라고 예상하고, 요청만큼 할당해줄 수 없다면 데드락
+낙관적으로 할당된 자원이 있다면 반납할 것이라고 예상하고, 요청만큼 할당해줄 수 없다면 데드락
 
 - 회복 방법
     - 프로세스 킬 
