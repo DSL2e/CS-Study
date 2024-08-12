@@ -29,13 +29,13 @@
 ## 운영체제 📌
 | 주차  | 제목   | 발표자 |
 |-----|-----------------------------|-----|
-| 1,2주차 | [프로세스와 스레드의 차이](./Os/process_thread.md)  | 이승우 |
+| 1,2주차 | [프로세스와 스레드의 차이](./OS/process_thread.md)  | 이승우 |
 |     | [멀티 스레드](./OS/process_thread.md)        | 이승우 |
 |     | [프로세스 주소 공간](./OS/process_thread.md)       | 이승우 |
-|     | [스케줄러](./os/cpu_scheduling.md)     | 류현지 |
-|     | [CPU 스케줄러](./os/cpu_scheduling.md)     | 류현지 |
+|     | [스케줄러](./OS/cpu_scheduling.md)     | 류현지 |
+|     | [CPU 스케줄러](./OS/cpu_scheduling.md)     | 류현지 |
 |     | [문맥 교환 (Context Switching)](./OS/contextSwitching.md)   | 류현지 |
 |     | [동기와 비동기의 차이](./OS/sync_async.md)    | 이승우 |
 |     | [프로세스 동기화](./OS/processSync.md)        | 이대산 |
 |     | [메모리 관리 전략](./OS/memoryManagement.md)    | 박경완 |
-| 3,4주차 | [가상 메모리, 캐시의 지역성 ](./Os/virtualMemory.md)  | 이대산 |
+| 3,4주차 | [가상 메모리, 캐시의 지역성 ](./OS/virtualMemory.md)  | 이대산 |
