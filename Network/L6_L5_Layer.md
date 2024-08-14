@@ -58,6 +58,12 @@ SQL 데이터베이스 연결: 클라이언트 애플리케이션과 데이터�
 
 화상 회의 및 VoIP: 화상 회의나 VoIP(Voice over IP)에서 세션 계층은 회의나 통화 중에 세션을 관리하며, 오류 발생 시 재연결을 시도하거나 회의를 종료합니다.
 
+---
+
+[move to 프레젠테이션 & 세션 레이어](./L6_L5_Layer.md)
+
+---
+
 # References
 > [Presentation Layer in OSI model, GeeksForGeeks](https://www.geeksforgeeks.org/presentation-layer-in-osi-model/)
 
@@ -67,3 +73,5 @@ SQL 데이터베이스 연결: 클라이언트 애플리케이션과 데이터�
 > [Seesion Layer, osi-model.com](https://osi-model.com/session-layer/)
 
 > [InfosecTrain, What is Presentation Layer in the OSI Model?, Medium](https://medium.com/@Infosec-Train/what-is-presentation-layer-in-the-osi-model-4f587383fec0)
+
+
