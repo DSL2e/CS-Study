@@ -45,7 +45,8 @@
 |         | [프로세스 동기화](./OS/processSync.md)                    | 이대산 |
 |         | [메모리 관리 전략](./OS/memoryManagement.md)              | 박경완 |
 | 3,4주차 | [가상 메모리, 캐시의 지역성 ](./OS/virtualMemory.md)      | 이대산 |
-|         | [기타 : 컴파일러, 인터프리터, IO, DMA, Socket]()          |        |
+|         | [기타 : 컴파일러, 인터프리터](./OS/compiler&interpreter.md) | 류현지 |
+|         | [PIO, DMA, MMIO, Socket](./OS/PIO_DMA_MMIO_socket.md) | 류현지 |
 
 ## 네트워크 📌
 
