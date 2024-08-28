@@ -49,7 +49,7 @@
 2. FIFO : 가장 먼저 들어온 것을 먼저 내보냄 
 
 3. LRU(Least Recently Used Alogrithm) : 가장 오래전에 참조된 것을 지움
-![alt text](![Untitled](./Image/virtualMemory/image-2.png)
+![Untitled](./Image/virtualMemory/image-2.png)
 
 4. LFU(Least Frequently Used Algorithm) : 가장 참조횟수가 적은 페이지를 지움
     - 최저 참조 횟수 Page가 여럿 있는 경우
@@ -60,6 +60,7 @@
     - 단점
         - 참조 시점의 최근성 반영 X
         - LRU보다 구현의 복잡성
+          
 ![alt text](./Image/virtualMemory/image-3.png)
 
 => 하지만, 페이지 폴트가 일어날 때만 OS에게 CPU가 넘어가니까, OS가 어떤 페이지가 가장 오래된 것인지, 많이 참조된 것인지 알 수 없음
