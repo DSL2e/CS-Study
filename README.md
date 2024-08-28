@@ -56,8 +56,8 @@
 |         | [DNS, 프레센테이션/세션 계층](./Network/DNS.md)      | 강주빈 |
 |         | [L4:전송 계층](./Network/L4_transport.md)           | 박경완 |
 | 5,6주차 | [L3:네트워크 계층]()                                 | 박경완 |
-|         | [L2:데이터링크/물리 계층](./OS/virtualMemory.md)                          | 이대산 |
-|         | [기타: 라우터, 스위치, 허브, Proxy, 로드 밸런싱](./OS/virtualMemory.md)    | 이대산 |
+|         | [L2:데이터링크/물리 계층](./Network/L2_DataLink.md)                          | 이대산 |
+|         | [기타: 라우터, 스위치, 허브, Proxy, 로드 밸런싱](./Network/L2_DataLink.md)    | 이대산 |
 |         | [캐시, 쿠키, 세션]()                                | 강주빈 |
 
 ## 데이터베이스 📌
