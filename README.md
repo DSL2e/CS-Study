@@ -55,7 +55,7 @@
 |         | [HTTP](./Network/http.md)                          | 이승우 |
 |         | [DNS, 프레센테이션/세션 계층](./Network/DNS.md)      | 강주빈 |
 |         | [L4:전송 계층](./Network/L4_transport.md)           | 박경완 |
-| 5,6주차 | [L3:네트워크 계층]()                                 | 박경완 |
+| 5,6주차 | [L3:네트워크 계층](./Network/L3네트워크.md)                                 | 박경완 |
 |         | [L2:데이터링크/물리 계층](./Network/L2_DataLink.md)                          | 이대산 |
 |         | [기타: 라우터, 스위치, 허브, Proxy, 로드 밸런싱](./Network/L2_DataLink.md)    | 이대산 |
 |         | [캐시, 쿠키, 세션](./Network/캐시.md)                               | 강주빈 |
@@ -66,8 +66,19 @@
 | ------- |---------------------------------------------| ------ |
 |         | [RDBMS](./DB/RDBMS.md)                      | 이승우 |
 |         | [RDBMS Operations](./DB/RDBMSOperations.md) | 류현지 |
-|         | [Transaction]()                             | 박경완 |
-| 5,6주차 | [정규화]()                                     |        |
+| 5,6주차 | [Transaction]()                             |       |
+|         | [정규화]()                                     |        |
 |         | [Index]()                                   |        |
 |         | [NoSQL]()                                   |        |
+
+## 자바와 자료구조 📌
+
+| 주차    | 제목                                          | 발표자 |
+| ------- |---------------------------------------------| ------ |
+|         | [Multi-Thread]()                              |       |
+|         | [CORS, Reflection]()                          |       |
+|         | [Generic, JVM(GC), Stream, Lambda, JDK, SDK]()   |       |
+|         | [배열, 힙(PriorityQueue, Dequeue), 해시, 정렬]()   |        |
+|         | [트리]()                                       |        |
+|         | [암호화]()                                     |        |
 
