@@ -68,7 +68,7 @@
 |         | [RDBMS Operations](./DB/RDBMSOperations.md) | 류현지 |
 | 5,6주차 | [Transaction]()                             |       |
 |         | [정규화]()                                     |        |
-|         | [Index]()                                   |        |
+|         | [Index](./DB/Index.md)                                   | 류현지 |
 |         | [NoSQL]()                                   |        |
 
 ## 자바와 자료구조 📌
