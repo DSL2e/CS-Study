@@ -78,7 +78,7 @@
 |         | [Multi-Thread]()                              |       |
 |         | [CORS, Reflection]()                          |       |
 |         | [Generic, JVM(GC), Stream, Lambda, JDK, SDK]()   |       |
-|         | [배열, 힙(PriorityQueue, Dequeue), 해시, 정렬]()   |        |
+|         | [배열, 힙(PriorityQueue, Dequeue), 해시, 정렬](./Java/Array%2CHeap%2CHash%2CSort.md)   |  류현지  |
 |         | [트리]()                                       |        |
 |         | [암호화]()                                     |        |
 
