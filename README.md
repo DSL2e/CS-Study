@@ -67,7 +67,7 @@
 |         | [RDBMS](./DB/RDBMS.md)                      | 이승우 |
 |         | [RDBMS Operations](./DB/RDBMSOperations.md) | 류현지 |
 | 5,6주차 | [Transaction]()                             |       |
-|         | [정규화]()                                     |        |
+|         | [정규화](./DB/Normalization.md)                                     | 이승우 |
 |         | [Index](./DB/Index.md)                                   | 류현지 |
 |         | [NoSQL]()                                   |        |
 
