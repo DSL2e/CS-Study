@@ -77,7 +77,7 @@
 | ------- |---------------------------------------------| ------ |
 |         | [Multi-Thread]()                              |       |
 |         | [CORS, Reflection]()                          |       |
-|         | [Generic, JVM(GC), Stream, Lambda, JDK, SDK]()   |       |
+|         | [Generic, JVM(GC), Stream, Lambda, JDK, SDK](./Java/Generic.md)   |이승우|
 |         | [배열, 힙(PriorityQueue, Dequeue), 해시, 정렬](./Java/Array%2CHeap%2CHash%2CSort.md)   |  류현지  |
 |         | [트리]()                                       |        |
 |         | [암호화]()                                     |        |
